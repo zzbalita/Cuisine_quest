@@ -36,7 +36,7 @@ export const Navbar = () => {
               className="text-foreground/80 transition-colors hover:text-primary"
               activeClassName="text-primary font-semibold"
             >
-              Địa Điểm Quanh Ta
+              Món Ngon Quanh Ta
             </NavLink>
             <NavLink
               to="/blog"
@@ -91,7 +91,7 @@ export const Navbar = () => {
                 activeClassName="text-primary font-semibold"
                 onClick={() => setIsOpen(false)}
               >
-                Địa Điểm Quanh Ta
+                Món Ngon Quanh Ta
               </NavLink>
               <NavLink
                 to="/blog"
